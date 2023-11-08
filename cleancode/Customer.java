@@ -1,8 +1,9 @@
 package cleancode;
+import java.util.Date;
 
-public class DTaRcrd102 {
-    private Date genymdhms;
-    private Date modymdhms;
-    private final String pszqint = "102";
+class CUstomer {
+    private Date generationTimestamp;
+    private Date modificationTimestamp;
+    private final String recordId = "102";
     /*... */
 }
